@@ -1,8 +1,8 @@
 function formStep() {
-    let quizStep = document.querySelectorAll(".quiz__step");
-    let quizStepButtonNext = document.querySelectorAll(".quiz__step__button__next");
-    let quizStepButtonPrev = document.querySelectorAll(".quiz__step__button__prev");
-    let screenWidth = document.documentElement.clientWidth;
+    const quizStep = document.querySelectorAll(".quiz__step");
+    const quizStepButtonNext = document.querySelectorAll(".quiz__step__button__next");
+    const quizStepButtonPrev = document.querySelectorAll(".quiz__step__button__prev");
+    const screenWidth = document.documentElement.clientWidth;
     for (let i = 0; i < quizStep.length; i++) {
         quizStep[i].classList.remove("active");
         let li = document.createElement('li');
