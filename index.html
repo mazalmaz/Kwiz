@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Экспресс расчет стоимости вашего забора из профнастила</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <section class="quiz prof">
+        <div class="container">
+            <form id="form1" action="javascript:void(null);">
+                <div class="quiz__title">Экспресс расчет стоимости вашего забора <br>из профнастила</div>
+                <div class="quiz__step">
+                    <div class="quiz__step__content">
+                        <div class="quiz__dec">Оставьте заявку и получите расчет на <span>WatsApp</span> в течении 5-и
+                            минут!
+                        </div>
+                        <div class="quiz__step__out">
+                            <div class="quiz__step__out__title">Выберите ТИП забора </div>
+                            <div class="quiz__step__variants">
+                                <label for="solid" class="quiz__step__variants__label label-radio">
+                                    <input type="radio" name="zabor" id="solid" class="quiz__step__variants__radio"
+                                        value="Из профлиста сплошной">
+                                    <span class="quiz__step__variants__img"><img src="img/solid.png" alt=""></span>
+                                    <span class="quiz__step__variants__span">Из профлиста сплошной</span>
+                                </label>
+                                <label for="frame" class="quiz__step__variants__label label-radio">
+                                    <input type="radio" name="zabor" id="frame" class="quiz__step__variants__radio"
+                                        value="Из профлиста в рамке">
+                                    <span class="quiz__step__variants__img"><img src="img/frame.png" alt=""></span>
+                                    <span class="quiz__step__variants__span">Из профлиста в рамке</span>
+                                </label>
+                                <label for="plank" class="quiz__step__variants__label label-radio">
+                                    <input type="radio" name="zabor" id="plank" class="quiz__step__variants__radio"
+                                        value="Из профлиста с планкой">
+                                    <span class="quiz__step__variants__img"><img src="img/plank.png" alt=""></span>
+                                    <span class="quiz__step__variants__span">Из профлиста с планкой</span>
+                                </label>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="quiz__step__button">
+                        <a class="quiz__step__button__prev"><span>Назад</span></a>
+                        <a class="quiz__step__button__next">Далее</a>
+                    </div>
+                </div>
+                <div class="quiz__step">
+                    <div class="quiz__step__content">
+                        <div class="quiz__step__out">
+                            <div class="quiz__step__out__title">Укажите ВЫСОТУ и ДЛИНУ забора </div>
+                            <div class="quiz__step__variants">
+                                <div class="quiz__step__variants__input__select">
+                                    <label for="dlina" class="quiz__step__variants__input-label">Длина</label>
+                                    <input type="text" name="dlina" class="quiz__step__input" id="dlina">
+                                </div>
+                                <div class="quiz__step__variants__input__select">
+                                    <label for="visota" class="quiz__step__variants__input-label">Высота*</label>
+                                    <div class="quiz__step__select-body">
+                                        <select name="visota" id="visota" name="visota" class="quiz__step__select">
+                                            <option value="1 метр">1 метр</option>
+                                            <option value="2 метрa">2 метрa</option>
+                                            <option value="3 метра">3 метра</option>
+                                        </select>
+                                    </div>
+                                    <span class="quiz__step__variants__intro">*без учета калитки и ворот</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="quiz__step__button">
+                        <a class="quiz__step__button__prev"><span>Назад</span></a>
+                        <a class="quiz__step__button__next">Далее</a>
+                    </div>
+
+                </div>
+                <div class="quiz__step">
+                    <div class="quiz__step__content">
+                        <div class="quiz__step__out">
+                            <div class="quiz__step__out__title">Ворота </div>
+                            <div class="quiz__step__variants">
+                                <label for="otkatnie" class="quiz__step__variants__label label-radio">
+                                    <input type="radio" name="vorota" id="otkatnie" class="quiz__step__variants__radio"
+                                        value="Откатные">
+                                    <span class="quiz__step__variants__img"><img src="img/otkatnie.png" alt=""></span>
+                                    <span class="quiz__step__variants__span">Откатные</span>
+                                </label>
+                                <label for="raspashnie" class="quiz__step__variants__label label-radio">
+                                    <input type="radio" name="vorota" id="raspashnie"
+                                        class="quiz__step__variants__radio" value="Распашные">
+                                    <span class="quiz__step__variants__img"><img src="img/raspashnie.png" alt=""></span>
+                                    <span class="quiz__step__variants__span">Распашные</span>
+                                </label>
+                                <label for="bezvorot" class="quiz__step__variants__label label-radio">
+                                    <input type="radio" name="vorota" id="bezvorot" class="quiz__step__variants__radio"
+                                        value="Без ворот">
+                                    <span class="quiz__step__variants__img"><img src="img/no.png" alt=""></span>
+                                    <span class="quiz__step__variants__span">Без ворот</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="quiz__step__button">
+                        <a class="quiz__step__button__prev"><span>Назад</span></a>
+                        <a class="quiz__step__button__next">Далее</a>
+                    </div>
+                </div>
+                <div class="quiz__step">
+                    <div class="quiz__step__content">
+                        <div class="quiz__step__out">
+                            <div class="quiz__step__out__title">Нужна ли КАЛИТКА?</div>
+                            <div class="quiz__step__variants">
+                                <label for="kalitka" class="quiz__step__variants__label label-no-img">
+                                    <input type="radio" name="kalitka" id="kalitka" class="quiz__step__variants__radio"
+                                        value="С калиткой">
+                                    <span class="quiz__step__variants__span">С калиткой</span>
+                                </label>
+                                <label for="nokalitka" class="quiz__step__variants__label label-no-img">
+                                    <input type="radio" name="kalitka" id="nokalitka"
+                                        class="quiz__step__variants__radio" value="Без калитки">
+                                    <span class="quiz__step__variants__span">Без калитки</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="quiz__step__button">
+                        <a class="quiz__step__button__prev"><span>Назад</span></a>
+                        <a class="quiz__step__button__next">Далее</a>
+                    </div>
+                </div>
+
+                <div class="quiz__step">
+                    <div class="quiz__step__content">
+                        <div class="quiz__step__out">
+                            <div class="quiz__step__out__title">Нужна ли УСТАНОВКА? </div>
+                            <div class="quiz__step__variants">
+                                <label for="lenta" class="quiz__step__variants__label label-radio">
+                                    <input type="radio" name="fudament" id="lenta" class="quiz__step__variants__radio"
+                                        value="На ленточный фундамент">
+                                    <span class="quiz__step__variants__img"><img src="img/lenta.png" alt=""></span>
+                                    <span class="quiz__step__variants__span">На ленточный фундамент</span>
+                                </label>
+                                <label for="jma" class="quiz__step__variants__label label-radio">
+                                    <input type="radio" name="fudament" id="jma" class="quiz__step__variants__radio"
+                                        value="На ямочный фундамент">
+                                    <span class="quiz__step__variants__img"><img src="img/jma.png" alt=""></span>
+                                    <span class="quiz__step__variants__span">На ямочный фундамент</span>
+                                </label>
+                                <label for="bezfundamenta" class="quiz__step__variants__label label-radio">
+                                    <input type="radio" name="fudament" id="bezfundamenta"
+                                        class="quiz__step__variants__radio" value="Без установки">
+                                    <span class="quiz__step__variants__img"><img src="img/no.png" alt=""></span>
+                                    <span class="quiz__step__variants__span">Без установки</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="quiz__step__button">
+                        <a class="quiz__step__button__prev"><span>Назад</span></a>
+                        <a class="quiz__step__button__next">Далее</a>
+                    </div>
+                </div>
+
+                <div class="quiz__step">
+                    <div class="quiz__step__content">
+                        <div class="quiz__step__out final">
+                            <div class="quiz__step__out__title">Пожалуйста укажите МОБИЛЬНЫЙ номер телефона, расчет
+                                придет на whatsapp</div>
+                            <div class="quiz__step__variants">
+                                <div class="quiz__step__variants__input">
+                                    <label for="visota" class="quiz__step__variants__input-label">Номер телефона</label>
+                                    <input type="text" name="phone" class="quiz__step__input" id="visota">
+                                </div>
+                                <div class="quiz__step__variants__input">
+                                    <label for="visota" class="quiz__step__variants__input-label">Ваше имя</label>
+                                    <input type="text" name="name" class="quiz__step__input" id="visota">
+                                </div>
+                                <div class="quiz__step__variants__input d-flex align-items-end">
+                                    <input type="submit" value="Узнать стоимость" class="quiz__step__submit">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="quiz__step__button">
+                        <a class="quiz__step__button__prev"><span>Назад</span></a>
+                        <a class="quiz__step__button__next">Далее</a>
+                    </div>
+                </div>
+                <ul class="quiz__step__scale"></ul>
+        </div>
+        </form>
+        <div class="thenks">
+            <span class="thenks__close"></span>
+            <div>Спасибо!<br>Стоимость вашего забора <br>из профнастила мы вышлем <br>на ваш номер телефона.</div>
+        </div>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
